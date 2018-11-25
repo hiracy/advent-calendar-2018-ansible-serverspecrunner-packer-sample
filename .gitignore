@@ -1,0 +1,13 @@
+.bundle
+.DS_Store
+.vagrant
+vendor/
+.rbenv-gemsets
+.ruby-version
+
+# serverspec-runner generated
+_platforms.yml
+_serverspec_result.csv
+
+# log
+packer.log

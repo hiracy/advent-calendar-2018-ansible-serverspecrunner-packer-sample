@@ -1,0 +1,13 @@
+---
+- name: set nginx repo file
+  copy:
+    src: nginx.repo
+    dest: /etc/yum.repos.d/nginx.repo
+    mode: 0644
+    owner: root
+    group: root
+
+- name: install nginx
+  package:
+    name:  nginx
+    state: present
